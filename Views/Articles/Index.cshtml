@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Afisare articole</h2>
+<br />
+
+@if (TempData["message"] != null)
+{
+    <h2 class="alert-success text-center mb-5 p-3">@ViewBag.Msg</h2>
+}
+
+@if (User.IsInRole("Admin") || User.IsInRole("Editor"))
+{
+    <a class="btn btn-success rounded-pill mb-5" href="/Articles/New">
+        <i class="bi bi-plus"></i> Adaugare articol
+    </a>
+}
+
+
+@if (User.IsInRole("Admin"))
+{
+    <a class="btn btn-secondary rounded-pill mb-5" href="/ArticlesHistory/Index">
+        <i class="bi bi-info-circle"></i> Istoric articole
+    </a>
+}
+
+
+<a class="btn btn-warning rounded-pill mb-5" href="/Categories/Index">
+    <i class="bi bi-search"></i> Afisare dupa categorii
+</a>
+
+
+@*
+    <div class="d-flex justify-content-center">
+
+        <a class="btn btn-outline-success" href="/Categories/Index/">Afisare categorii</a>
+        <br />
+        <a class="btn btn-outline-success" href="/Subcategories/Index/">Afisare subcategorii</a>
+        <br />
+        <a class="btn btn-outline-success" href="/Articles/New">Adauga articol</a>
+        <br />
+
+    </div>
+*@
+<br />
+
+@* Motorul de cautare *@
+<form method="GET">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search topics or keywords" name="search"
+               value="@ViewBag.SearchString">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </div>
+</form>
+
+
+@foreach (OurApp.Models.Article article in ViewBag.Articles)
+{
+
+    <div class="card">
+        @Html.Partial("ArticleInfo", article)
+
+        <a class="btn btn-success" href="/Articles/Show/@article.Id">Afisare articol</a>
+
+    </div>
+
+    <br />
+    <br />
+}
+
+
+@* Afisarea paginata a articolelor *@
+
+<div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="@ViewBag.PaginationBaseUrl=1" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+
+            @for (int i = 1; i <= ViewBag.lastPage; i++)
+            {
+                <li class="page-item"> <a class="page-link" href="@ViewBag.PaginationBaseUrl=@i">@(i)</a> </li>
+            }
+
+            <li class="page-item">
+                <a class="page-link" href="@ViewBag.PaginationBaseUrl=@(ViewBag.lastPage)" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+

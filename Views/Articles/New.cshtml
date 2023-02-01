@@ -1,0 +1,71 @@
+﻿@model OurApp.Models.Article
+<h2 class="text-center mt-5">Adaugare articol</h2>
+<br />
+
+<a class="btn btn-success rounded-pill mb-5" href="/Articles/Index">
+    <i class="bi bi-arrow-left"></i> Inapoi la articole
+</a>
+
+<br />
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <!--<form method="post" action="/Articles/New">-->
+            @using (Html.BeginForm(actionName: "New",
+                        controllerName: "Articles",
+                        method: FormMethod.Post,
+                        routeValues: new { id = Model.Id }))
+            {
+
+                @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+
+                @using (Html.BeginForm(actionName: "New", controllerName: "Articles"))
+                {
+                    @Html.Label("Title", "Titlu Articol")
+
+                    <br />
+
+                    @Html.TextBox("Title", null, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Title, null, new { @class = "text-danger" })
+
+                    <br />
+                    <br />
+
+                    @Html.Label("Content", "Continut Articol")
+
+                    <br />
+
+                    @Html.TextArea("Content", null, new { @class = "summernote" })
+                    @Html.ValidationMessage("Content", null, new { @class = "text-danger" })
+
+                    <br />
+                    <br />
+
+                    <label>Selectati categoria</label>
+
+                    @Html.DropDownListFor(m => m.CategoryId, new SelectList(Model.Categ, "Value", "Text"),
+                                 "Selectati categoria", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.CategoryId, null, new { @class = "text-danger" })
+
+                    <br />
+                    <br />
+
+                    <label>Selectati subcategoria</label>
+
+                    @Html.DropDownListFor(m => m.SubcategoryId, new SelectList(Model.Subcateg, "Value", "Text"),
+                                 "Selectati subcategoria", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.SubcategoryId, null, new { @class = "text-danger" })
+
+                    <br />
+                    <br />
+
+                    <button class="btn btn-success" type="submit">Adauga articol</button>
+                }
+            }
+
+            <!--</form>-->
+        </div>
+    </div>
+</div>

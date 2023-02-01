@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Lista articole din istoric";
+}
+
+<h2>@ViewBag.Title</h2>
+<br />
+
+<a class="btn btn-success rounded-pill mb-5" href="/Articles/Index">
+    <i class="bi bi-arrow-left"></i> Inapoi la articole
+</a>
+
+@*
+<a class="btn btn-success" href="/Articles/Index">Inapoi la articole</a>
+<br />
+*@
+
+<br />
+
+@foreach (var article in ViewBag.ArticlesHist)
+{
+    <div class="arthcontainer">
+        <h6>ID Articol: @article.ArticleId</h6>
+
+        <h6>Titlu: </h6>
+        <p>@article.Title</p>
+
+        <br />
+
+        <h6>Continut: </h6>
+        <div class="card-text">@Html.Raw(article.Content)</div>
+
+        <br />
+
+        <h6>Data editarii: @article.EditDate</h6>
+
+        <hr />
+        <br />
+
+        @if(User.IsInRole("Admin") || User.IsInRole("Editor"))
+        {
+            <a class="btn btn-secondary rounded-pill mb-5" href="/Articles/GoBackTo/@article.Id">
+                        <i class="bi bi-skip-backward"></i> Go back to this
+            </a>
+        }
+        
+      
+        <br />
+    </div>
+
+    <br />
+}
+<br />

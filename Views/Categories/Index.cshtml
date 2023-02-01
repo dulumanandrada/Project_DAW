@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Lista categorii";
+}
+
+<h2>@ViewBag.Title</h2>
+<br />
+
+@*<a href="/Articles/Index">Inapoi la articole</a>*@
+
+@if (User.IsInRole("Admin"))
+{
+    <a class="btn btn-success" href="/Categories/New">Adauga o noua categorie</a>
+}
+
+<br />
+<br />
+
+@foreach (var category in ViewBag.Categories)
+{
+    <div class="arthcontainer">
+        <p>@category.CategoryName</p>
+
+        @if (User.IsInRole("Admin"))
+        {
+            <a class="btn alert-success" href="/Categories/Show/@category.Id">Afisare categorie</a>
+            <a class="btn alert-success" href="/Categories/Edit/@category.Id">Editare categorie</a>
+            <br />
+            <br />
+            <a class="btn btn-success" href="/Articles/ShowAfterCategory/@category.Id">Afisare articole</a>
+            <br />
+            <hr />
+        }
+
+        else
+        {
+            <a class="btn btn-success" href="/Articles/ShowAfterCategory/@category.Id">Afisare articole</a>
+        }
+        <br />
+    </div>
+    <br />
+}
+
+
+<br />
+
+
+

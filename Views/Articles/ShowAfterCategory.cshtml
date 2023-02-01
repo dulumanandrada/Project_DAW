@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Articole dupa categorii";
+}
+
+<h2>Afisare articole dupa categorii</h2>
+<br />
+
+@if (TempData["message"] != null)
+{
+    <h2 class="alert-success text-center mb-5 p-3">@ViewBag.Msg</h2>
+}
+
+
+<br />
+
+<a class="btn btn-success rounded-pill mb-5" href="/Articles/Index">
+    <i class="bi bi-arrow-left"></i> Inapoi
+</a>
+
+@{
+    var idart = ViewBag.IdCat;
+
+}
+
+<a class="btn btn-warning rounded-pill mb-5" style="float:right" href="/Articles/IndexSortAlf/@idart">
+    <i class="bi bi-arrow-down"></i> Sortare alfabetica
+</a>
+
+<a class="btn btn-warning rounded-pill mb-5" style="float:right" href="/Articles/IndexSortDate/@idart">
+    <i class="bi bi-arrow-down"></i> Sortare data
+</a>
+
+
+@foreach (var article in ViewBag.ArticlesAfterCat)
+{
+    <div class="card">
+        <div class="card-body">
+
+            <h3 class="card-title alert-success py-3 px-3 rounded-2">@article.Title</h3>
+
+            <div class="card-text">@Html.Raw(article.Content)</div>
+
+            <div class="d-flex justify-content-between flex-row mt-5">
+                <div><i class="bi bi-globe"></i> @article.Category.CategoryName</div>
+                <div><i class="bi bi-globe"></i> @article.Subcategory.SubcategoryName</div>
+                <div><i class="bi bi-person"></i>@article.User.UserName</div>
+                <span class="alert-success">@article.CreateDate</span>
+                <span class="alert-success">@article.LastDate</span>
+
+            </div>
+
+        </div>
+
+        <br />
+
+        <a class="btn btn-success" href="/Articles/Show/@article.Id">Afisare articol</a>
+    </div>
+
+    <br />
+}
+
+

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Editare subcategorie";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form method="post" action="/Subcategories/Edit/@ViewBag.Subcategory.Id">
+
+
+    <label>Nume subcategorie</label>
+    <br /> <input type="text" name="SubcategoryName" value="@ViewBag.Subcategory.SubcategoryName" />
+    <br /><br />
+
+          <button class="btn btn-success" type="submit">Modifica subcategoria</button>
+</form>
+

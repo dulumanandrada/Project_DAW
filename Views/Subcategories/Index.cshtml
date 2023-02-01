@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Lista subcategorii";
+}
+
+<h2>@ViewBag.Title</h2>
+<br />  
+
+@*<a href="/Articles/Index">Inapoi la articole</a>*@
+
+<a class="btn btn-success" href="/Subcategories/New">Adauga o noua subcategorie</a>
+<br />
+
+<br />
+
+@foreach (var subcategory in ViewBag.Subcategories)
+{
+    <div class="arthcontainer">
+        <p>@subcategory.SubcategoryName</p>
+        <a class="btn alert-success" href="/Subcategories/Show/@subcategory.Id">Afisare subcategorie</a>
+        <a class="btn alert-success" href="/Subcategories/Edit/@subcategory.Id">Editare subcategorie</a>
+        <br />
+        <hr />
+        <br />
+    </div>
+
+    <br />
+}
+<br />
+
+

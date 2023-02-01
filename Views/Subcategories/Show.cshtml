@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Afisare subcategorie";
+}
+
+
+<h2>@ViewBag.Title</h2>
+
+<br />
+
+
+<p>@ViewBag.Subcategory.SubcategoryName</p>
+
+<form method="post" action="/Subcategories/Delete/@ViewBag.Subcategory.Id">
+
+    <button class="btn btn-danger" type="submit">Sterge subcategoria</button>
+
+</form>
+<br />
+<a class="btn alert-success" href="/Subcategories/Index/">Afisare lista subcategorii</a>
+
+<br />
+<hr />
+<br />
+

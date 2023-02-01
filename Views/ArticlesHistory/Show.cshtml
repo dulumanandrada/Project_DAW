@@ -1,0 +1,46 @@
+﻿@*
+    <a class="btn btn-success" href="/ArticlesHistory/Index/">Inapoi la istoric articole</a>
+
+        <h2>@ViewBag.ArticlesHistories.Title</h2>
+        <p>@ViewBag.ArticlesHistories.Content</p>
+
+*@
+
+
+@foreach (var article in ViewBag.ArticlesHistories)
+{
+     <div class="arthcontainer">
+         <h6>ID Articol: @article.ArticleId</h6>
+
+         <h6>Titlu: </h6>
+         <p>@article.Title</p>
+
+         <br />
+
+         <h6>Continut: </h6>
+         <div class="card-text">@Html.Raw(article.Content)</div>
+
+         <br />
+
+         <h6>Data editarii: @article.EditDate</h6>
+
+         <hr />
+         <br />
+
+         @if (User.IsInRole("Admin") || User.IsInRole("Editor"))
+         {
+             <a class="btn btn-secondary rounded-pill mb-5" href="/Articles/GoBackTo/@article.Id">
+                 <i class="bi bi-skip-backward"></i> Go back to this
+             </a>
+         }
+ 
+         <br />
+     </div>
+
+     <br />
+
+}
+<br />
+
+
+
