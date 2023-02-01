@@ -1,0 +1,180 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OurApp
+build_property.RootNamespace = OurApp
+build_property.ProjectDir = /Users/andradaduluman/projects/OurApp/OurApp/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/andradaduluman/projects/OurApp/OurApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/AboutUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXRVcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Articles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Articles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Articles/IndexNou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXMvSW5kZXhOb3UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Articles/IndexSortAlf.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXMvSW5kZXhTb3J0QWxmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Articles/IndexSortDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXMvSW5kZXhTb3J0RGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Articles/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXMvTmV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Articles/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXMvU2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Articles/ShowAfterCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXMvU2hvd0FmdGVyQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/ArticlesHistory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXNIaXN0b3J5L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/ArticlesHistory/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZXNIaXN0b3J5L1Nob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Bookmarks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va21hcmtzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Bookmarks/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va21hcmtzL05ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Bookmarks/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va21hcmtzL1Nob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Categories/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9OZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Categories/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9TaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Comments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbWVudHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Shared/ArticleInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FydGljbGVJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Shared/_LayoutNou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXROb3UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Subcategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3ViY2F0ZWdvcmllcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Subcategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3ViY2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Subcategories/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3ViY2F0ZWdvcmllcy9OZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Subcategories/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3ViY2F0ZWdvcmllcy9TaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Users/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvU2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/andradaduluman/projects/OurApp/OurApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r07cjt5mws
