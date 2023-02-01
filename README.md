@@ -27,5 +27,10 @@ inclusiv utilizatori, putând să le schimbe rolul
 - pot fi sortate crescător după data creării și alfabetic
 - pot fi căutate cu ajutorul motorului de căutare (caută în titlu, conținut și comentarii)
 
+## Preview
+
+<img width="1425" alt="Captură de ecran din 2023-02-01 la 16 52 45" src="https://user-images.githubusercontent.com/94484148/216077196-239b996a-4c94-4fd0-affb-d90eabf8c88a.png">
+
+
 
 
